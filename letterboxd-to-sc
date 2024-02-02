@@ -30,7 +30,7 @@
                 scLink.style.marginLeft = "10px"; // Adjust spacing as needed
                 scLink.textContent = "Secret Cinema";
 
-                // Optionally, you can insert the SC link directly after the IMDb link for consistency
+                // Insert the SC link directly after the IMDb link
                 imdbLinkEl.parentNode.insertBefore(scLink, imdbLinkEl.nextSibling);
             }
         }
